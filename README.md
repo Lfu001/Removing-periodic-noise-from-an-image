@@ -3,8 +3,7 @@ removing noise by Fourier transforming the image and filtering it in frequency s
 
 ## Variables
   ### SIZE
-  `SIZE` is the size of the image to be input.  
-  Note: The size of the image must be N x N.  
+  The size of the input image must be N x N (N = `SIZE`).  
   
   ### FILTER_SIZE
   Filtering sets the gray level of the noise and its surrounding pixels to 0. `FILTER_SIZE` is its size.  
